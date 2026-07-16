@@ -1,0 +1,9 @@
+import matplotlib.pyplot as plt
+import seaborn as sns
+
+findex_years = np.array([2011, 2014, 2017, 2021, 2024]) [cite: 26]
+findex_access = np.array([0.14, 0.22, 0.35, 0.46, 0.49]) [cite: 26]
+
+# Calculate periodic percentage point changes
+pp_changes = np.diff(findex_access) * 100
+print(f"Periodic PP Changes: {pp_changes}")
