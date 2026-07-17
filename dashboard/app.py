@@ -92,7 +92,7 @@ st.sidebar.info(
 # 1. OVERVIEW PAGE
 # -------------------------------------------------------------------------
 if page == "Overview Page":
-    st.title("🇪🇹 Ethiopia Financial Inclusion Dashboard")
+    st.title("Ethiopia Financial Inclusion Dashboard")
     st.markdown(
         "Welcome to the forecasting platform developed by **Selam Analytics**. "
         "This tool supports development finance institutions, mobile operators, "
